@@ -6,9 +6,9 @@
 }
 
 body {
-    color: #0f172a;
-}
+    color: #09dc5d;
 
+}
 /* NAVBAR */
 .navbar {
     display: flex;
@@ -18,21 +18,15 @@ body {
     background: white;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: bold;
-}
 
 .logo img {
-    width: 32px;
+    width: 70px;
 }
 
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #334155;
+    color: #0a51b4;
     font-size: 14px;
 }
 
@@ -140,12 +134,12 @@ nav a {
 
 .card {
     background: #f8fafc;
-    padding: 30px;
-    border-radius: 12px;
+    padding: 32px;
+    border-radius: 15px;
 }
 
 .icon {
-    font-size: 28px;
+    font-size: 45px;
     margin-bottom: 15px;
 }
 
@@ -157,3 +151,101 @@ nav a {
     font-size: 14px;
     color: #475569;
 }
+/* SECOND SECTION */
+.solution {
+  padding: 20px 0;
+}
+
+.solution-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.solution-image img {
+  width: 100%;
+  max-width: 420px;
+}
+
+.solution-content .tag {
+  color: #090b0a;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.solution-content h2 {
+  font-size: 36px;
+  margin: 16px 0;
+  color: #04070f;
+}
+
+.solution-content .desc {
+  color: #0c0f12;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.solution-list {
+  list-style: none;
+  padding: 0;
+}
+
+.solution-list li {
+  margin-bottom: 12px;
+  padding-left: 28px;
+  position: relative;
+  color: #04070f;
+}
+.solution-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #45d37e;
+  font-weight: bold;
+}
+
+
+/* CALL THE MAIN SECTION */
+.ctms {
+  background-color: #f8f6ef;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 16px;
+  margin: 80px auto;
+  max-width: 1000px;
+ 
+}
+
+.ctms h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+.ctms button{
+    cursor: pointer;
+    color:white;
+    background-color: #09dc5d;
+    border-radius: 0%;
+    background: #22c55e;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+ 
+
+
+.ctms small,p {
+    color: #475569;
+  margin-bottom: 24px;
+  display: block;
+  margin-top: 16px;
+  color: #64748b;
+}
+
